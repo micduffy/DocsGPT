@@ -214,8 +214,8 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           className={'visible mt-2 flex h-[6vh] w-full justify-between md:h-12'}
         >
           <div className="my-auto mx-4 flex cursor-pointer gap-1.5">
-            <img className="mb-2 h-10" src={DocsGPT3} alt="" />
-            <p className="my-auto text-2xl font-semibold">DocsGPT</p>
+            {/*<img className="mb-2 h-10" src={DocsGPT3} alt="" />*/}
+            <p className="my-auto text-2xl font-semibold">TobiasBrain</p>
           </div>
           <button
             className="float-right mr-5"
@@ -327,7 +327,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
             </NavLink>
 
             <a
-              href="https://docs.docsgpt.co.uk/"
+              href="https://designtobias.com/"
               target="_blank"
               rel="noreferrer"
               className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
@@ -335,26 +335,26 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
               <NavImage Light={Documentation} Dark={DocumentationDark} />
               <p className="my-auto text-sm ">Documentation</p>
             </a>
-            <a
-              href="https://discord.gg/WHJdfbQDR4"
-              target="_blank"
-              rel="noreferrer"
-              className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
-            >
-              <NavImage Light={Discord} Dark={DiscordDark} />
-              {/*  <img src={isDarkTheme ? DiscordDark : Discord} alt="discord-link" className="ml-2 w-5" /> */}
-              <p className="my-auto text-sm">Visit our Discord</p>
-            </a>
+            {/*<a*/}
+            {/*  href="https://discord.gg/WHJdfbQDR4"*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noreferrer"*/}
+            {/*  className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"*/}
+            {/*>*/}
+            {/*  <NavImage Light={Discord} Dark={DiscordDark} />*/}
+            {/*  /!*  <img src={isDarkTheme ? DiscordDark : Discord} alt="discord-link" className="ml-2 w-5" /> *!/*/}
+            {/*  <p className="my-auto text-sm">Visit our Discord</p>*/}
+            {/*</a>*/}
 
-            <a
-              href="https://github.com/arc53/DocsGPT"
-              target="_blank"
-              rel="noreferrer"
-              className="mx-4 mt-auto flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
-            >
-              <NavImage Light={Github} Dark={GithubDark} />
-              <p className="my-auto text-sm">Visit our Github</p>
-            </a>
+            {/*<a*/}
+            {/*  href="https://github.com/arc53/DocsGPT"*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noreferrer"*/}
+            {/*  className="mx-4 mt-auto flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"*/}
+            {/*>*/}
+            {/*  <NavImage Light={Github} Dark={GithubDark} />*/}
+            {/*  <p className="my-auto text-sm">Visit our Github</p>*/}
+            {/*</a>*/}
           </div>
         </div>
       </div>

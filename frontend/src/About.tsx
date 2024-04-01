@@ -7,20 +7,20 @@ export default function About() {
     <div className="mx-5 grid min-h-screen md:mx-36">
       <article className="place-items-left mx-auto my-auto flex w-full max-w-6xl flex-col gap-4 rounded-3xl bg-gray-100 p-6 text-jet dark:bg-gun-metal dark:text-bright-gray lg:p-6 xl:p-10">
         <div className="flex items-center">
-          <p className="mr-2 text-3xl">About DocsGPT</p>
-          <img className="h14 mb-2" src={DocsGPT3} alt="DocsGPT" />
+          <p className="mr-2 text-3xl">About TobiasBrain</p>
+          {/*<img className="h14 mb-2" src={DocsGPT3} alt="DocsGPT" />*/}
         </div>
         <p className="mt-4">
           Find the information in your documentation through AI-powered
-          <a
-            className="text-blue-500"
-            href="https://github.com/arc53/DocsGPT"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {' '}
-            open-source{' '}
-          </a>
+          {/*<a*/}
+          {/*  className="text-blue-500"*/}
+          {/*  href="https://github.com/arc53/DocsGPT"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noreferrer"*/}
+          {/*>*/}
+          {/*  {' '}*/}
+          {/*  open-source{' '}*/}
+          {/*</a>*/}
           chatbot. Powered by GPT-3, Faiss and LangChain.
         </p>
 
@@ -64,9 +64,9 @@ export default function About() {
 
         <p>
           Currently It uses{' '}
-          <span className="text-blue-950 font-medium">DocsGPT</span>{' '}
+          <span className="text-blue-950 font-medium">TobiasBrain</span>{' '}
           documentation, so it will respond to information relevant to{' '}
-          <span className="text-blue-950 font-medium">DocsGPT</span>. If you
+          <span className="text-blue-950 font-medium">TobiasBrain</span>. If you
           want to train it on different documentation - please follow
           <a
             className="text-blue-500"

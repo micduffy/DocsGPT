@@ -66,16 +66,16 @@ const ConversationBubble = forwardRef<
         className={`flex flex-wrap self-start ${className} group flex-col pr-20  dark:text-bright-gray`}
       >
         <div className="flex flex-wrap self-start lg:flex-nowrap">
-          <Avatar
-            className="mt-2 h-12 w-12 text-2xl"
-            avatar={
-              <img
-                src={DocsGPT3}
-                alt="DocsGPT"
-                className="h-full w-full object-cover"
-              />
-            }
-          />
+          {/*<Avatar*/}
+          {/*  className="mt-2 h-12 w-12 text-2xl"*/}
+          {/*  avatar={*/}
+          {/*    <img*/}
+          {/*      src={DocsGPT3}*/}
+          {/*      alt="DocsGPT"*/}
+          {/*      className="h-full w-full object-cover"*/}
+          {/*    />*/}
+          {/*  }*/}
+          {/*/>*/}
 
           <div
             className={`ml-2 mr-5 flex max-w-[90vw] rounded-3xl bg-gray-1000 p-3.5 dark:bg-gun-metal md:max-w-[70vw] lg:max-w-[50vw] ${
